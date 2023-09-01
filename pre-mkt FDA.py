@@ -86,7 +86,7 @@ def main():
     plt.tight_layout()
 
     # Save the lineplot as a JPG image
-    plt.savefig(f"Avg FDA Clearenec line chart {task_time.strftime('%Y-%m-%d_%H%M%S')}.jpg", dpi=300)
+    plt.savefig(f"Avg FDA Clearance line chart {task_time.strftime('%Y-%m-%d_%H%M%S')}.jpg", dpi=300)
     plt.show()
 
 
