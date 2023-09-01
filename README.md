@@ -3,22 +3,21 @@
 ### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/pre_market_analysis#environment-setup) to do the environment set up first
 ### 1. Daily Use
 * Step 1:\
-Rename the input Excel file to 'EXPORT.xlsx'\
-copy the input Excel file under the folder 'Sunshine Act','semi_auto_process'\
-![input](https://github.com/Zili125935/semi_auto_process/assets/107199759/1c6ae8e4-580e-4e31-a672-3bdd88ec97e9)
-**Please make sure rename the new input excel file as 'EXPORT.xlsx' everytime you use this script!**
+copy the FDA clearance file, usually the file name is 'pmn96cur.txt' under folder 'pre_market_analysis'\
+If you have renamed your FDA Clearance file, please make sure to use the modified name\
+**Please remember this script only accept .txt file, if you would like to use excel as your source file, please contact the author**
 
 * Step 2:\
 Open 'Command Prompt', copy paste & enter
 ```
-cd OneDrive - STG-Business\Desktop\Sunshine Act\semi_auto_process
+cd OneDrive - STG-Business\Desktop\FDA Clearance Plot\pre_market_analysis
 git pull
-python sunshine_run.py
+python pre_mkt_FDA.py
 ```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
-For example, if the folder 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
-```cd Desktop\Sunshine\semi_auto_process```
+For example, if the folder 'FDA Clearance Plot' has be changed to 'FDA Plot', the first command will be\
+```cd Desktop\FDA Plot\pre_market_analysis```
 
 ## Environment Setup
 #### Prerequisite - install Python and Git
@@ -49,4 +48,4 @@ If you have renamed your FDA Clearance file, please make sure to use the modifie
 * Step 4:\
 Go back to Command, copy & paste the following command to run the script
 ```
-python pre-mkt FDA.py
+python pre_mkt_FDA.py
