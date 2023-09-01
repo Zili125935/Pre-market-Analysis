@@ -1,6 +1,6 @@
 # Pre-market FDA Analysis
 ## Visualize FDA Pre-market Clearance Time for Regulatory
-### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/Pre-market-Analysis#environment-setup) to do the environment set up first
+### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/pre_market_analysis#environment-setup) to do the environment set up first
 ### 1. Daily Use
 * Step 1:\
 Rename the input Excel file to 'EXPORT.xlsx'\
@@ -36,16 +36,17 @@ cd OneDrive - STG-Business\Desktop\FDA Clearance Plot
 * Step 2:\
  clone the repo to your local, please copy and paste the following command in your command line
 ```
-git clone https://github.com/Zili125935/Pre-market-Analysis.git
-cd semi_auto_process
+git clone https://github.com/Zili125935/pre_market_analysis.git
+cd pre_market_analysis
 pip install -r requirements.txt
 ```
 *Remember to click 'enter'
 * Step 3:\
-Rename the input excel file to 'EXPORT.xlsx' \
-copy the input excel file under folder 'semi_auto_process'
+copy the FDA clearance file, usually the file name is 'pmn96cur.txt' under folder 'pre_market_analysis'\
+If you have renamed your FDA Clearance file, please make sure to use the modified name\
+*Please remember this script only accept .txt file, if you would like to use excel as your source file, please contact the author.
 
 * Step 4:\
 Go back to Command, copy & paste the following command to run the script
 ```
-python sunshine_run.py
+python pre-mkt FDA.py
