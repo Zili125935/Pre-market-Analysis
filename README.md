@@ -30,7 +30,7 @@ Open 'Command Prompt' and follow the instruction\
  Open Command prompt and choose the location you want to save the auto process.\
  For example, if you want save the file in the 'FDA Clearance Plot' under 'Desktop', you can type 
 ```
-cd OneDrive - STG-Business\Desktop\FDA Clearance Plot
+cd Downloads\FDA Clearance Plot
 ```
 * Step 2:\
  clone the repo to your local, please copy and paste the following command in your command line
