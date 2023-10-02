@@ -20,7 +20,11 @@ For example, if the folder 'FDA Clearance Plot' has be changed to 'FDA Plot', th
 ```
 cd Downloads\FDA Plot\pre_market_analysis
 ```
-Please remember the file route we are using now is under 'Downloads'. If you would like change direction to other folders, for example to OneDrive, please contact Zili Huang.
+Please remember the file route we are using now is under 'Downloads'. If you would like change direction to other folders, for example to OneDrive, the command will be\
+```
+cd OneDrive - STG-Business\FDA Clearance Plot\pre_market_analysis
+```
+If you get trouble with change direction, please contact Zili Huang.
 
 ## Environment Setup
 #### Prerequisite - install Python and Git
