@@ -2,12 +2,12 @@
 ## Visualize FDA Pre-market Clearance Time for Regulatory
 ### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/pre_market_analysis#environment-setup) to do the environment set up first
 ### 1. Daily Use
-* Step 1:\
-copy the FDA clearance file, usually the file name is 'pmn96cur.txt' under folder 'pre_market_analysis'\
+#### Step 1:\
+copy the FDA clearance file, usually the file name is 'pmn96cur.txt', move this file under folder 'pre_market_analysis'\
 If you have renamed your FDA Clearance file, please make sure to use the modified name\
 **Please remember this script only accept .txt file, if you would like to use excel as your source file, please contact the author**
 
-* Step 2:\
+#### Step 2:\
 Open 'Command Prompt', copy paste & enter
 ```
 cd Downloads\FDA Clearance Plot\pre_market_analysis
@@ -20,7 +20,7 @@ For example, if the folder 'FDA Clearance Plot' has be changed to 'FDA Plot', th
 ```
 cd Downloads\FDA Plot\pre_market_analysis
 ```
-Please remember the file route we are using now is under 'Downloads'. If you would like change direction to other folders, for example to OneDrive, the command will be\
+Please remember the file route we are using now is under 'Downloads'. If you would like change direction to other folders, for example to OneDrive, the command will be
 ```
 cd OneDrive - STG-Business\FDA Clearance Plot\pre_market_analysis
 ```
