@@ -10,14 +10,15 @@ If you have renamed your FDA Clearance file, please make sure to use the modifie
 * Step 2:\
 Open 'Command Prompt', copy paste & enter
 ```
-cd OneDrive - STG-Business\Desktop\FDA Clearance Plot\pre_market_analysis
+cd Downloads\FDA Clearance Plot\pre_market_analysis
 git pull
 python pre_mkt_FDA.py
 ```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
 For example, if the folder 'FDA Clearance Plot' has be changed to 'FDA Plot', the first command will be\
-```cd Desktop\FDA Plot\pre_market_analysis```
+```cd Downloads\FDA Plot\pre_market_analysis```
+Please remember the file route we are using now is under 'Downloads'. If you would like change direction to other folders, for example to OneDrive, please contact Zili Huang.
 
 ## Environment Setup
 #### Prerequisite - install Python and Git
