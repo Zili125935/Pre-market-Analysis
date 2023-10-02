@@ -1,6 +1,6 @@
 # Pre-market FDA Analysis
 ## Visualize FDA Pre-market Clearance Time for Regulatory
-*If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/pre_market_analysis#environment-setup) to do the environment set up first
+* If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/pre_market_analysis#environment-setup) to do the environment set up first
 ### 1. Daily Use
 * Step 1:\
 copy the FDA clearance file, usually the file name is 'pmn96cur.txt', move this file under folder 'pre_market_analysis'\
