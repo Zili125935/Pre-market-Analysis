@@ -28,7 +28,7 @@ Open 'Command Prompt' and follow the instruction\
 
 * Step 1:\
  Open Command prompt and choose the location you want to save the auto process.\
- For example, if you want save the file in the 'FDA Clearance Plot' under 'Desktop', you can type 
+ For example, if you want save the file in the 'FDA Clearance Plot' under 'Downloads', you can type 
 ```
 cd Downloads\FDA Clearance Plot
 ```
