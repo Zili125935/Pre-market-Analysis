@@ -17,7 +17,9 @@ python pre_mkt_FDA.py
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
 For example, if the folder 'FDA Clearance Plot' has be changed to 'FDA Plot', the first command will be\
-```cd Downloads\FDA Plot\pre_market_analysis```\
+```
+cd Downloads\FDA Plot\pre_market_analysis
+```
 Please remember the file route we are using now is under 'Downloads'. If you would like change direction to other folders, for example to OneDrive, please contact Zili Huang.
 
 ## Environment Setup
