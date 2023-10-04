@@ -64,10 +64,10 @@ def main():
     # Create line charts
     plt.figure(figsize=(10, 6))
 
-    sns.lineplot(data=Dental_All, marker="o", label='Dental All Traditional')
-    sns.lineplot(data=Dental_DZE_NHA_PNP, marker="o", label='Dental DZE-NHA-PNP')
-    sns.lineplot(data=Straumann_DZE_NHA_PNP, marker="o", label='Straumann DZE-NHA-PNP')
-    sns.lineplot(data=Competition_DZE_NHA_PNP, marker="o", label='Competition DZE-NHA-PNP')
+    sns.lineplot(data=Dental_All, marker="o", label='Dental All Traditional', color = '#195AFA')
+    sns.lineplot(data=Dental_DZE_NHA_PNP, marker="o", label='Dental DZE-NHA-PNP', color = '#36393A')
+    sns.lineplot(data=Straumann_DZE_NHA_PNP, marker="o", label='Straumann DZE-NHA-PNP', color = '#B98C3C')
+    sns.lineplot(data=Competition_DZE_NHA_PNP, marker="o", label='Competition DZE-NHA-PNP', color = '#D52B1E')
 
     # Format y-axis ticks to display values as integers (e.g., 120 instead of 1.2)
     def format_y_ticks(value, _):
@@ -122,8 +122,11 @@ def main():
     # Create the bar chart using Seaborn
     plt.figure(figsize=(10, 6))
 
+    #Change colors
+    custom_colors = ["#195AFA", "#36393A", "#B98C3C", "#D52B1E"]
+
     # Plot the bar chart with hue for each DataFrame
-    sns.barplot(data=combined_counts, x='Year', y='Count', hue='DataFrame')
+    sns.barplot(data=combined_counts, x='Year', y='Count', hue='DataFrame', palette=custom_colors)
 
     # Set plot labels and title
     plt.xlabel("Clearence Year")
