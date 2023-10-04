@@ -8,7 +8,7 @@ If you have renamed your FDA Clearance file, please make sure to use the modifie
 **Please remember this script only accept .txt file, if you would like to use excel as your source file, please contact the author**
 
 * Step 2:\
-Open 'Command Prompt', copy paste & enter
+Open 'Command Prompt', copy paste & Click Enter twice
 ```
 cd Downloads\FDA Clearance Plot\pre_market_analysis
 git pull
